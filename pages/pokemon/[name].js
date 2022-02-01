@@ -41,7 +41,7 @@ export default function PokemonSingle({ pokemon }) {
     <div className={styles.container}>
       <Head>
         <title>{pokemon.name}</title>
-        <meta name="description" content="" />
+        <meta name="description" content={`A profile page for ${pokemon.name}`} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

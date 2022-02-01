@@ -16,6 +16,11 @@ export default function Header() {
               <a>Pokemon</a>
             </Link>
           </li>
+          <li className={styles.listItem}>
+            <Link href="/weather">
+              <a>Weather</a>
+            </Link>
+          </li>
         </ol>
       </nav>
     </header>

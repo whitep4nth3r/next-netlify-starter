@@ -20,9 +20,11 @@ export default function Home() {
           <a>View all Pokemon</a>
         </Link>
 
-        <p className={styles.explainer}>
-          This is a static route. Find the file at <code>/pages/index.js</code>
-        </p>
+        <div className={styles.explainer}>
+          <p>
+            This is a static route. Find the file at <code>/pages/index.js</code>
+          </p>
+        </div>
       </main>
 
       <Footer />

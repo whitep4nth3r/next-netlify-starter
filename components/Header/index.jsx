@@ -17,8 +17,8 @@ export default function Header() {
             </Link>
           </li>
           <li className={styles.listItem}>
-            <Link href="/weather">
-              <a>Weather</a>
+            <Link href="/bitcoin">
+              <a>Bitcoin</a>
             </Link>
           </li>
         </ol>

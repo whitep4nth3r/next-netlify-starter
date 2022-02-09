@@ -16,7 +16,7 @@ export default function Home() {
       <Header />
 
       <main className={styles.main}>
-        <h1>Welcome! Browse Pokemon and check the weather.</h1>
+        <h1>Welcome! Browse Pokemon and check the price of Bitcoin.</h1>
         <Link href="/pokemon">
           <a>View all Pokemon</a>
         </Link>
